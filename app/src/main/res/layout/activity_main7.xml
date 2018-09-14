@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".Main7Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_mail_outline_black_24dp" />
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Refer a Friend"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bkashlogo" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black">
+
+    </View>
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="55dp"
+        android:text="Refer bkash App to Your
+                Friend"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="190dp"
+            android:layout_marginTop="300dp"
+            android:textColor="@drawable/pink"
+            android:text="VIEW DETAILS"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="300dp"
+            android:textColor="@drawable/pink"
+            android:text=">"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:background="#ffff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

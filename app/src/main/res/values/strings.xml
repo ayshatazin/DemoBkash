@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoBkash</string>
+    <string name="mobile_recharge">Mobile Recharge</string>
+    <string name="send_money">Send Money</string>
+    <string name="bkash_home">bkash Home</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="request_money">Request Money</string>
+</resources>
